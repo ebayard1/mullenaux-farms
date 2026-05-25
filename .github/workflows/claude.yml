@@ -33,5 +33,6 @@ jobs:
         uses: anthropics/claude-code-action@beta
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}          allowed_tools: "Bash"
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          allowed_tools: "Bash"
           model: claude-opus-4-5
