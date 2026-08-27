@@ -264,7 +264,7 @@ p{ max-width:62ch; color:var(--ink-soft); margin:0 0 1.15rem; }
 .food__fig--photo{
   grid-column:8 / 13; grid-row:1 / 4;
   align-self:start;
-  aspect-ratio:3/4;
+  aspect-ratio:5/4;
   margin-top:1.5rem;
 }
 
@@ -366,7 +366,7 @@ p{ max-width:62ch; color:var(--ink-soft); margin:0 0 1.15rem; }
 }
 .inspiration__fig{ margin:0; }
 .inspiration__fig img{
-  width:100%; max-width:28rem; aspect-ratio:5/4; object-fit:cover;
+  width:100%; max-width:24rem; aspect-ratio:3/4; object-fit:cover;
   filter:grayscale(1) contrast(1.04);
 }
 .inspiration__fig figcaption{ margin-top:.9rem; color:var(--ink-muted); }
